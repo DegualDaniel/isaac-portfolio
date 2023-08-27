@@ -131,6 +131,7 @@
     .hero-text{ 
         width: 90%;
         margin-top: .5rem;
+        /* line-height: 1.1rem; */
     }
     .hero-btn{ 
         margin-block: 1.3rem; 
@@ -155,7 +156,15 @@
 
 
 
+/* MEDIA FOR SMALLER SCREEN */
+@media screen and (max-width:900px) {
 
+
+    .hero-text p{  
+        line-height: 1.7rem; 
+    }
+
+}
 
 
 

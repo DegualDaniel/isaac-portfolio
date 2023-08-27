@@ -64,7 +64,8 @@ body{
   font-family: 'font';
   color: var(--color);
   /* overflow-x: hidden; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  transition: .2s linear; 
   
 }
 

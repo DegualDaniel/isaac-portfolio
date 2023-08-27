@@ -18,8 +18,8 @@ const Project = () => {
         document.body.removeChild(link);
     }
 
-    const handleDownload = () => {
-        const imageUrl = require("../../pdf/p1.pdf") // Replace with your image URL
+    const handleDownloader1 = () => {
+        const imageUrl = require("../../pdf/p2.pdf") // Replace with your image URL
         const imageName = 'name.pdf'; // Replace with your desired image name
         downloadImage(imageUrl, imageName)};
 
@@ -36,10 +36,18 @@ const Project = () => {
             // **********************
 
             const handleDownloader3 = () => {
-                const imageUrl = require("../../pdf/p1.pdf") // Replace with your image URL
+                const imageUrl = require("../../pdf/p3.pdf") // Replace with your image URL
                 const imageName = 'name.pdf'; // Replace with your desired image name
                 downloadImage(imageUrl, imageName)};
 
+
+                const handleDownloader4 = () => {
+                    const imageUrl = require("../../pdf/a.jpeg") // Replace with your image URL
+                    const imageName = 'name.pdf'; // Replace with your desired image name
+                    downloadImage(imageUrl, imageName)};
+        
+                    // **********************
+        
 
     return (
         <div className='project' id='project'>
@@ -52,11 +60,11 @@ const Project = () => {
                         <div className='portfolio-cont'>
                             <div className='portfolio-pic'>
                                 {/* IMAGE  */}
-                                <a href='#' onClick={handleDownload}><img src={pic2}></img></a>
+                                <a href='#' onClick={handleDownloader2}><img src={pic2}></img></a>
                                 {   /* OVERLAY */}
                                 <div className='portfolio-overlay'>
-                                    <h2>Project 1</h2>
-                                    <p>leoremmmbgjbf fgnkgnbgn</p>
+                                    <h2>Sales Table</h2>
+                                    <p>Generating Sales Table</p>
                                 </div>
 
                             </div> 
@@ -73,29 +81,43 @@ const Project = () => {
                                             <div className='portfolio-cont'>
                             <div className='portfolio-pic'>
                                 {/* IMAGE  */}
-                                <a href='#' onClick={handleDownloader2}><img src={pic1}></img></a>
+                                <a href='#' onClick={handleDownloader1}><img src={pic1}></img></a>
                                 {   /* OVERLAY */}
                                 <div className='portfolio-overlay'>
-                                    <h2>Project 2</h2>
-                                    <p>leoremmmbgjbf fgnkgnbgn</p>
+                                    <h2>Data Model</h2>
+                                    <p>Creating Data Model</p>
                                 </div>
 
                             </div> 
                         </div> 
 
                         {/* PROJECT 3 */}
-                        <div className='portfolio-cont'>
+                        <div className='portfolio-cont project-3'>
                             <div className='portfolio-pic'>
                                 {/* IMAGE  */}
-                                <a href='#'  onClick={handleDownloader2}><img src={pic3}></img></a>
+                                <a href='#'  onClick={handleDownloader3}><img src={pic3}></img></a>
                                 {   /* OVERLAY */}
                                 <div className='portfolio-overlay'>
-                                    <h2>Project 3</h2>
-                                    <p>leoremmmbgjbf fgnkgnbgn</p>
+                                    <h2>Nortwind Orders</h2>
+                                    <p> Nortwind Orders Report</p>
                                 </div>
 
                             </div> 
                         </div>
+
+                         {/* PROJECT 3 */}
+                        {/* <div className='portfolio-cont'>
+                            <div className='portfolio-pic'>
+                                IMAGE 
+                                <a href='#'  onClick={handleDownloader4}><img src={pic3}></img></a>
+                               
+                                <div className='portfolio-overlay'>
+                                    <h2>Nortwind Orders</h2>
+                                    <p> Nortwind Orders Report</p>
+                                </div>
+
+                            </div> 
+                        </div> */}
 
                     
                 </div>

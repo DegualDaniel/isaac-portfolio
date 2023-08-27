@@ -1,5 +1,5 @@
 import './App.css'; 
-import { Routes, Route } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
 // import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from './compnent/header/head';  
 // import logopic from './image/favicon.ico.png'

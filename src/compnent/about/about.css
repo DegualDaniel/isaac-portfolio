@@ -84,6 +84,7 @@
     .abt-head-cnt{  
         /* padding: 1rem 0;  */
         /* flex-direction: column;   */
+        background-color: red;
     }
     .abt-txt-cnt{   
         margin-block:0; 

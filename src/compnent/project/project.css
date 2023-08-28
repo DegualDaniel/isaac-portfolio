@@ -102,13 +102,13 @@
 
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:400px) {
     .project{
         width: 100%;
         /* background-color: rebeccapurple; */
         /* min-height: 100vh;  */
         /* position: relative;  */
-        padding: 1rem 4%;
+        padding: 2rem 4%;
         /* top: 3rem;  */
       /* transition: .2s linear;  */
     }

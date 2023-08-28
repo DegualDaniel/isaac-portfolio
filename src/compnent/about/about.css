@@ -89,7 +89,12 @@
     .abt-txt-cnt{   
         margin-block:1rem; 
     }
-  
+    .abt-txt-cnt{ 
+        /* display: grid; */
+        /* grid-template-columns: repeat(2,1fr); */
+        margin-block: 0;
+        /* font-weight: 500;  */
+    }
   
 }
 

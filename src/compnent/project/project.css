@@ -112,5 +112,9 @@
         /* top: 3rem;  */
       /* transition: .2s linear;  */
     }
+    .portfolio-cont{
+        width: 90%;
+        margin: 1rem auto;
+    }
 }
 

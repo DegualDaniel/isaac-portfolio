@@ -120,5 +120,12 @@
         margin-top: 1rem;
         /* background-color: red; */
     }
+    .portfolio-overlay h2{
+        margin-bottom: 2px;
+        font-size: 9px;
+    }
+    .portfolio-overlay p{
+        font-size: 9px;
+    }
 }
 

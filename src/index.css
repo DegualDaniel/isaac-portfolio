@@ -14,7 +14,7 @@ code {
 
 
 /* DOWNLOADED FONTS */
-@font-face{
+/* @font-face{
   font-family: 'font';
   src: url('font/NeueMachina-Ultrabold.otf'); 
 }
@@ -25,15 +25,9 @@ code {
 @font-face{
   font-family: 'fontty'; 
   src: url('font/NeueMachina-Regular.otf'); 
-}
+} */
 
-
-
-
-
-
-
-
+ 
 *{
   margin: 0;
   padding: 0;
@@ -54,17 +48,14 @@ html::-webkit-scrollbar{
 html::-webkit-scrollbar-track{
   background: transparent;
 }
-html::-webkit-scrollbar-thumb{
-  /* background:var(--text-color); */
-  background-color: grey;
+html::-webkit-scrollbar-thumb{ 
+  background-color: black;
   border-radius: 5rem;
 } 
 body{ 
   background: white;
   font-family: 'font';
-  color: var(--color);
-  /* overflow-x: hidden; */
-  /* overflow-x: hidden; */
+  color: var(--color); 
   transition: .2s linear; 
   
 }

@@ -1,7 +1,7 @@
 import './project.css'
-import pic1 from './image/pro1.png'
-import pic2 from './image/pro2.jpg'
-import pic3 from './image/pro3.jpg'
+// import pic1 from './image/pro1.png'
+// import pic2 from './image/pro2.jpg'
+// import pic3 from './image/pro3.jpg'
 
 
 
@@ -60,7 +60,7 @@ const Project = () => {
                         <div className='portfolio-cont'>
                             <div className='portfolio-pic'>
                                 {/* IMAGE  */}
-                                <a href='#' onClick={handleDownloader2}><img src={pic2}></img></a>
+                                {/* <a href='#' onClick={handleDownloader2}><img src={pic2}></img></a> */}
                                 {   /* OVERLAY */}
                                 <div className='portfolio-overlay'>
                                     <h2>Sales Table</h2>
@@ -81,7 +81,7 @@ const Project = () => {
                                             <div className='portfolio-cont'>
                             <div className='portfolio-pic'>
                                 {/* IMAGE  */}
-                                <a href='#' onClick={handleDownloader1}><img src={pic1}></img></a>
+                                {/* <a href='#' onClick={handleDownloader1}><img src={pic1}></img></a> */}
                                 {   /* OVERLAY */}
                                 <div className='portfolio-overlay'>
                                     <h2>Data Model</h2>
@@ -95,7 +95,7 @@ const Project = () => {
                         <div className='portfolio-cont project-3'>
                             <div className='portfolio-pic'>
                                 {/* IMAGE  */}
-                                <a href='#'  onClick={handleDownloader3}><img src={pic3}></img></a>
+                                {/* <a href='#'  onClick={handleDownloader3}><img src={pic3}></img></a> */}
                                 {   /* OVERLAY */}
                                 <div className='portfolio-overlay'>
                                     <h2>Nortwind Orders</h2>

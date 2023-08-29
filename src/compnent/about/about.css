@@ -2,9 +2,7 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;  
-    /* background-color: red; */
-    /* background: var(--background-color) url(/image/dot-about3.png);   */
+    flex-direction: column ;
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;  
@@ -75,25 +73,15 @@
 
 
 @media screen and (max-width:400px) {
-    .about-section{  
-        /* background-size: cover; */
-        top: 2rem; 
-        /* padding: 0 3%; */
+    .about-section{   
+        top: 2rem;  
     }
-    
-    .abt-head-cnt{  
-        /* padding: 1rem 0;  */
-        /* flex-direction: column;   */
-        /* background-color: red; */
-    }
+ 
     .abt-txt-cnt{   
         margin-block:1rem; 
     }
-    .abt-txt-cnt{ 
-        /* display: grid; */
-        /* grid-template-columns: repeat(2,1fr); */
-        margin-block: 0;
-        /* font-weight: 500;  */
+    .abt-txt-cnt{  
+        margin-block: 0; 
     }
   
 }

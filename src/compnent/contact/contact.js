@@ -1,18 +1,17 @@
 import './contact.css'
-import connectpic from './image/connect.webp'
-import pic1 from './image/connect.jpg'
-import background from  './image/dot-about3.png'
+// import connectpic from './image/connect.webp' 
+// import background from  './image/dot-about3.png'
 // import bb from './image/connect.jpg'
 
 
 const Contact = () => {
     return(
         <div className="contactsec"  id="contact" style={{
-            backgroundImage: `url(${background})`,
+            // backgroundImage: `url(${background})`,
             // backgroundRepeat:'no-repeat'
         }}>
             <div className='connect-head'>
-                <img src={pic1}></img>
+                {/* <img src={pic1}></img> */}
             </div>
             <div className='connect-cont'>
                 <div className='cont-text1'>
@@ -35,7 +34,7 @@ const Contact = () => {
 
                 </div>
                 <div className='pic2'>
-                    <img className='con-pic' src={connectpic}></img>
+                    {/* <img className='con-pic' src={connectpic}></img> */}
                 </div>
             </div>
         </div>

@@ -7,9 +7,7 @@
     margin-top: 2rem;
 }
 .work-head{
-    /* background-color: rosybrown; */
     display: flex;
-    /* width: 1200px; */
     align-items: center;
     gap: 8px;
     padding: 1rem 0;
@@ -30,18 +28,15 @@
 .project-sec{ 
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* background-color: red;  */
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding:2rem 0;
     margin: 0 auto;
-
 } 
 .portfolio-cont{
     width:95%; 
     margin: 0 auto; 
-    /* background-color: yellow; */
     display: flex;
     padding: 32px 16px;
     justify-content: center;
@@ -52,16 +47,12 @@
 }
 .portfolio-pic{
     width: 100%; 
-    /* margin-bottom: 1.5rem; */
     overflow: hidden;
     position: relative;
-    /* background-color: blue; */
-
 }
 .portfolio-pic img{
     width: 99%;
     margin: 0 auto;
-    /* border-radius: 5%; */
     border-radius: 40px;
 }  
 .portfolio-pic img:hover{
@@ -69,10 +60,6 @@
     transition: all linear .2s;
     
 } 
-
-
-
-
 .portfolio-overlay {
     display: flex;
     flex-direction: column;
@@ -99,53 +86,44 @@
 } 
    
 
-
-
-
-
 /*  MEDIA QUERY MEDIUM SCREEN */
 @media screen and (max-width:900px) {
     .project-sec{ 
-        /* display: grid; */
         grid-template-columns: repeat(2,1fr);
-        /* background-color: red; */
-        /* margin-top: 2rem; */
-    
     } 
-
+    .portfolio-cont{
+        padding: 28px 14px;
+        border-radius: 40px;
+    }
     .project-3{
         display: none;
     }
-}
-
-
-
-
-
-@media screen and (max-width:400px) {
-    .project{
-        width: 100%;
-        /* background-color: rebeccapurple; */
-        /* min-height: 100vh;  */
-        /* position: relative;  */
-        padding: 2rem 4%;
-        /* top: 3rem;  */
-      /* transition: .2s linear;  */
-    }
     .portfolio-cont{
-        width: 90%;
-        margin: 1rem auto;
+        width: 95%; 
+        border-radius: 10px;
     }
+    .portfolio-pic img{ 
+        border-radius: 10px;
+    }  
     .work-head h1{
         margin-top: 1rem;
-        /* background-color: red; */
     }
-    .portfolio-overlay h2{
-        margin-bottom: 2px;
-        font-size: 9px;
+    .portfolio-overlay h2{ 
+        font-size: 15px;
+        margin-top: 4px;
     }
     .portfolio-overlay p{
-        font-size: 9px;
+        font-size: 11px;
     }
+}
+
+@media screen and (max-width:400px) {
+ 
+    .project{
+        padding: 1rem 4%;
+        width: 100%;  
+        margin-top: 2rem;
+    } 
+
 }
 

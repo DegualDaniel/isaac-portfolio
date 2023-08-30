@@ -17,6 +17,7 @@ header{
         z-index: 1000;
         display: flex;
         align-items: center; 
+        gap: 3px;
 } 
 .logo h2{ 
         color: #000;

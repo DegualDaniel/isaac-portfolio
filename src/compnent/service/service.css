@@ -1,16 +1,13 @@
 
 .service{
     padding: 6rem 6%;
-    background-color:#F2F0F0;
-    /* background-color: rebeccapurple; */
+    background-color:#F2F0F0; 
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;
-    align-self: stretch;
-    /* align-items: center; */
-    /* gap: 48px; */
+    align-self: stretch; 
 }
 .service-cont{
     display: flex;

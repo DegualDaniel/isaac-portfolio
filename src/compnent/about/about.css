@@ -1,5 +1,5 @@
 .about-section{
-    width: 100%;
+    /* width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column ;
@@ -8,37 +8,46 @@
     background-size: contain;  
     position: relative;
     top: 4rem; 
-    padding: 0 4%;
+    padding: 0 4%; */ 
+    padding: 6rem 6%;
+    background-color:#FFF;; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 48px;
+    align-items: center;
+    /* align-self: stretch;  */
 }
-.abt-head2 h1{ 
-    font-size: clamp(3rem,5vw,7rem);  
-    text-align: center;
+.abt-cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+}
+.abt-head h3{ 
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
 } 
-.abt-head-cnt{
-    margin-block: 1rem;
-    /* background-color: yellow; */
+ 
+.text{ 
+    color: #272626;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    align-self: stretch;
 }
-
-.abt-txt-cnt{ 
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-block: 1.8rem;
-    font-weight: 500; 
+.text p{
+    line-height: 28px;    
 }
-
-.abt-txt1{ 
-    width: 90%;
-}
-.abt-txt1 h3{
-    font-family: 'fonty';
-    font-size: clamp(.9rem,2vw,1.1rem);
-    line-height: 2.3rem; 
-} 
-.abt-txt2 h3{
-    font-family: 'fonty';
-    font-size: clamp(.9rem,2vw,1.1rem);
-    line-height: 2.3rem; 
-}
+ 
 
 
 

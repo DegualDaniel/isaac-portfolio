@@ -89,11 +89,13 @@
 /*  MEDIA QUERY MEDIUM SCREEN */
 @media screen and (max-width:900px) {
     .project-sec{ 
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
+        gap: 28px;
     } 
     .portfolio-cont{
         padding: 28px 14px;
         border-radius: 40px;
+        /* margin-top: 1rem; */
     }
     .project-3{
         display: none;

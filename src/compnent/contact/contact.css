@@ -1,76 +1,93 @@
 
 
 .contactsec{
-    width: 100%; 
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain; 
+    padding: 6rem 6%;
+    background-color:#252525; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch; 
+    min-height: 100vh;
+    /* color: #FFFFFF; */
    
 }
-.connect-head{ 
-    width: 30%;
-    margin: 0 auto;
-}
-.connect-head img{ 
-    width: 100%;
-}
-.connect-cont{
-    /* background-color: yellow; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.contact-cont{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding:  0 4%;
+    align-self: stretch;
 } 
-.cont-text1 h3{
-    font-family: 'fonty';
-    font-size: clamp(.9rem,2vw,1.1rem);
-    line-height: 2rem; 
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    flex: 1 0 0;
 }
-.cont-link{  
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 80%;
-    margin: 0 auto;
+.text1 h2{
+    color: #ffff;
+    font-family: Times New Roman;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
 }
-.fa-brands{
-    font-size: 2rem;
-    letter-spacing: .6rem;
-    margin-top: 3rem;  
-} 
-.pic2{
-    width: 85%; 
+span{
+    color: #2FACED;
 }
-.pic2 img{
-    width: 100%; 
+.text2{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 54px;
 }
+.text2-1{ 
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.text2-1 p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+ 
+.text2-2{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.text2-3{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: #FFF;
+}
+/* a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} */
 
 
 
 
 
-/*  MEDIA QUERY MEDIUM SCREEN */
-@media screen and (max-width:900px) {
-    .contactsec{ 
-        background-size: cover; 
-       
-    }
-    .connect-head{ 
-        width: 40%;
-        margin: 1rem auto;
-    }
-    .cont-link{ 
-        width: 100%; 
-    }
-    .pic2{
-        width: 80%; 
-    }
-}
+
+
+
+
 @media screen and (max-width:400px) {
-    .connect-cont{ 
-        grid-template-columns: 1fr;
-        flex-direction: column-reverse;
-        display: flex; 
-    } 
+ 
 }
 
 

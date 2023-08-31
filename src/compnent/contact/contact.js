@@ -41,7 +41,7 @@ const Contact = () => {
                                 <a href='#'> Github</a>
                                 <a href='#'> Linkedin</a>
                                 <a href='#'> Twitter</a>
-                                <a href='#'> Whahtsapp</a>
+                                <a href='#'> Whatsapp</a>
                             </div>  
                         </div>
 

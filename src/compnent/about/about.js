@@ -3,16 +3,6 @@
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  const About = () => {
     return(
         <div class="about-section" id="about">

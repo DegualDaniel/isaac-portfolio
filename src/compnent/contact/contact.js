@@ -1,7 +1,10 @@
 import './contact.css'
 import resume from '../image/iconoir_arrow-tr.png' 
-// import background from  './image/dot-about3.png'
-// import bb from './image/connect.jpg'
+import v1 from '../image/Vector.png'
+import v2 from '../image/Vector2.png'
+import v3 from '../image/Vector3.png'
+import v4 from '../image/Vector4.png'
+
 
 
 const Contact = () => {
@@ -37,24 +40,33 @@ const Contact = () => {
                             <div className='Social'>
                                 <a href='#'> Github</a>
                                 <a href='#'> Linkedin</a>
-                                <a href='#'> twitter</a>
+                                <a href='#'> Twitter</a>
                                 <a href='#'> Whahtsapp</a>
                             </div>  
                         </div>
 
-                        <div className='text2-3'> 
+
+                    </div>
+
+                    <div className='text2-3'> 
                             <div><p>Resume</p></div>
 
                             <div className='Social'>
                                 <p> Download Resume</p>  
+                                <div><a href='#'><img src={resume}></img> </a></div>
                             </div>  
-                            <div><a href='#'><img src={resume}></img> </a></div>
-                        </div>
-                    </div>
+                            
+                        </div> 
+
                 </div>
                 {/* ****** */}
                 <div className='img-contact'>
-       
+                    <div className='img-ct'>
+                        <div className='v1'><img src={v4}></img></div>
+                        <div className='v2'><img src={v1}></img></div>
+                        <div className='v3'><img src={v2}></img></div>
+                        <div className='v4'><img src={v3}></img></div>
+                    </div>
                 </div>
  
             </div>

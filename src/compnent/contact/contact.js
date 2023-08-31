@@ -66,6 +66,12 @@ const Contact = () => {
                         <div className='v2'><img src={v1}></img></div>
                         <div className='v3'><img src={v2}></img></div>
                         <div className='v4'><img src={v3}></img></div>
+
+                        {/* <img src={v4}></img>
+                        <img src={v1}></img>
+                        <img src={v2}></img>
+                        <img src={v3}></img> */}
+
                     </div>
                 </div>
  

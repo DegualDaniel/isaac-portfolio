@@ -43,7 +43,8 @@ padding: 15px;
 justify-content: center;
 align-items: center;
 border-radius: 100px;
-background: #2FACED;
+/* background: #2FACED; */
+background-color: white;
 }
 
 

@@ -34,7 +34,8 @@
     line-height: 64px; /* 133.333% */
 }
 span{
-    color: #2FACED;
+    /* color: #2FACED; */
+    color: #ffff;
 }
 .text2{ 
     display: flex;
